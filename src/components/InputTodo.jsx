@@ -11,9 +11,9 @@ export function InputTodo() {
 
   return (
     <Search
-          placeholder='input search text'
+          placeholder='Adicione uma nova tarefa'
           className='searchBox'
-          enterButton='Search'
+          enterButton='Criar'
           size='large'
           onSearch={onSearch}
           style={{
